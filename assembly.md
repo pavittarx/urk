@@ -554,6 +554,7 @@ The transfer of control maybe (forward: to execute a new set of instructions) or
 This is performed by a set of Jump instructions. j[condition] depending upon the condition. The conditional instructions transfer the control by breaking the flow and they do it by changing offset value in IP.
 
 Conditional jump on unsigned data used for logical operations.
+
 |Instruction|Descrition|Flags Tested |
 |---|---|:---:|
 |JE/JZ|Jump Equal/Jump Zero| ZF |
@@ -561,5 +562,3 @@ Conditional jump on unsigned data used for logical operations.
 |JA/JNBE|Jump Above/Jump Not Below/Equal| CF,ZF |
 |JB/JNAE|Jump Below/Jump Not Above Equal| CF |z
 |JBE/JNA|Jump Below Equal / Jump Not Above| AF, CF |
-
- 
