@@ -8,6 +8,8 @@ This page contains notes & information to work with assembly language.
 * Knowledge of Computer Memory and related information.
 * General Low Level Computer Knowledge.
 
+[=] Assembly Language is not case-sensitive.
+
 
 # Registers 
 
@@ -100,14 +102,13 @@ PF=1, Odd number of 1 bits.
 The table indicates the position of flag bits in the 16-bit flag register.
 
 <table>
-<tr>
 <td>Bit No </td>
 <td> 15 </td>
 <td> 14 </td>
 <td> 13 </td>
 <td> 12 </td>
 <td> 11 </td>
-<td> 10</td>
+<td> 10 </td>
 <td>  9 </td>
 <td>  8 </td>
 <td>  7 </td>
@@ -118,7 +119,7 @@ The table indicates the position of flag bits in the 16-bit flag register.
 <td>  2 </td>
 <td>  1 </td>
 <td>  0 </td>
-<tr>
+</tr>
 <tr>
 <td> Flag </td>
 <td> - </td>
@@ -137,7 +138,7 @@ The table indicates the position of flag bits in the 16-bit flag register.
 <td> D</td>
 <td> -</td>
 <td> C</td>
-<tr>
+</tr>
 </table>
 
 ## Group C: Segment Registers
@@ -182,71 +183,14 @@ int 0x80   ; call Kernel
 ```
 
 ## Common System Calls (Linux)
-<table>
-<tr>
-<td>Name</td>
-<td>%eax</td>
-<td>%ebx</td>
-<td>%ecx</td>
-<td>%edx</td>
-<td>%esx</td>
-<td>%edi</td>
-</tr>
-<tr>
-<td>sys_exit</td>
-<td>1</td>
-<td>int</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>sys_fork</td>
-<td>2</td>
-<td>struct pt_regs</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>sys_read</td>
-<td>3</td>
-<td>unsigned int</td>
-<td>char*</td>
-<td>size_t</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>sys_write</td>
-<td>4</td>
-<td>unsigned int</td>
-<td>const char*</td>
-<td>size_t</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>sys_open</td>
-<td>5</td>
-<td>const char*</td>
-<td>int</td>
-<td>int</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>sys_close</td>
-<td>6</td>
-<td>unsigned int</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-<td>-</td>
-</tr>
-</table>
+|Name|%eax|%ebx|%ecx|%edx|%esx|%edi|
+|---|---|---|---|---|---|---|
+|sys_exit|1|int|-|-|-|-|
+|sys_fork|2|struct pt_regs|-|-|-|-|
+|sys_read|3|unsigned int|char*|size_t|-|-|
+|sys_write|4|unsigned int|const char*|size_t|-|-|
+|sys_open|5|const char*|int|int|-|-|
+|sys_close|6|unsigned int|-|-|-|-|
 
 # Addressing Modes
 In assembly language, most of the instructions require operands to be processed. An operand address provides the location where the data to be processed is stored.
@@ -330,7 +274,7 @@ mov [ebx], 123         ; my_table[1]=123
 
 ```
 
-# Variables: Assembly Language 
+## Variables: Assembly Language 
 
 Assemblers are computer programs which translates assembly language to an object file or machine language format. The popular ones are 
 `MASM`, `NASM`, `TASM`, `WASM`.
@@ -343,34 +287,13 @@ NASM provides various `define` directives to reserve storage space for variables
 
 The assemble associates an offset value for each variable name  defined in the data segment.
 
-<table>
-<tr>
-<td>Directive</td>
-<td>Purpose</td>
-<td>Storage Space</td>
-</tr>
-<tr>
-<td>DB</td>
-<td>Define Byte</td>
-<td>allocates 1 byte</td>
-</tr>
-<tr>
-<td>DW</td>
-<td>Define Word</td>
-<td>allocates 2 bytes</td>
-</tr>
-<tr>
-<td>DD</td>
-<td>Define Double Word</td>
-<td>allocates 8 bytes</td>
-</tr>
-<tr>
-<td>DT</td>
-<td>Define Ten Bytes</td>
-<td>allocates 10 bytes</td>
-</tr>
-</table>
 
+| Directive | Purpose | Storage Space |
+|---|---|---|
+|DB | Define Byte | allocates 1 byte|
+|DW| Define Word| allocates 2 bytes|
+|DD|Define Double Word|allocates 8 bytes|
+|DT|Define Ten Bytes|allocates 10 bytes|
 
 Example -->
 ``` 
@@ -608,7 +531,7 @@ Let operand1 has 0101, and operand2 has 0011 stored in them. After OR operation 
 
 ### XOR Instruction
 It implements bitwise XOR operation. The XOR operation sets the resultant bit to 1, if and only if the bits from operands are different else it sets them to 0.
-
+ 
 Let operand1 contains 0101, and operand2 contains 0011. After XOR operation, operand1 has 0110 stored.
 
 [=] XOR'ing an operand with itself sets the operand to 0. This is used to clear the register.
@@ -636,7 +559,7 @@ Conditional jump on unsigned data used for logical operations.
 |JE/JZ|Jump Equal/Jump Zero| ZF |
 |JNE/JNZ|Jump Not Equal/Jump Not Zero| ZF |
 |JA/JNBE|Jump Above/Jump Not Below/Equal| CF,ZF |
-|JB/JNAE|Jump Below/Jump Not Above Equal| CF |
+|JB/JNAE|Jump Below/Jump Not Above Equal| CF |z
 |JBE/JNA|Jump Below Equal / Jump Not Above| AF, CF |
 
  
