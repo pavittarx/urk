@@ -22,7 +22,7 @@ There are two kinds of Computer Representations of numbers.
 
  ## Scientific Notation 
 
- 1. <ktx> 0.05432 = 5.432 \times 10^{-5}  \hspace{25px} (5.432e^{-5})</ktx>
+ 1. $ 0.05432 = 5.432 \times 10^{-5}  \hspace{25px} (5.432e^{-5}) $
 
  2. <ktx> 583.246 = 5.83246 \times 10^2 \hspace{25px} (5.83246e^2)</ktx> 
 
