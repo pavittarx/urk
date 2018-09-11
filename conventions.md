@@ -1,4 +1,4 @@
-## Coding Conventions (to maintain consitency among projects)
+## Coding Conventions (to maintain consistency among projects)
 
 1. All variable names should be meaningful.
 
