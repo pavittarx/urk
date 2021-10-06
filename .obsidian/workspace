@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "postgresql/Administration.md",
+            "file": "drafts/arrays-mongodb.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "postgresql/Administration.md",
+                "file": "drafts/arrays-mongodb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,9 @@
   },
   "active": "23e97ae18f5b9ad9",
   "lastOpenFiles": [
+    "drafts/Untitled.md",
+    "Untitled.md",
+    "notes.md",
     "postgresql/Administration.md",
     "postgresql/DDL.md",
     "Untitled.md",
