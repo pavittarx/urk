@@ -1,4 +1,6 @@
 {
   "communityPluginSortOrder": "alphabetical",
-  "promptDelete": false
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": true
 }
