@@ -6,11 +6,25 @@
       {
         "id": "a7c475e41d75ff57",
         "type": "leaf",
+        "dimension": 63.55555555555556,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "flutter/Appendix.md",
+            "file": "maths/logarithms.md.md",
             "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "0ca33ecf88081585",
+        "type": "leaf",
+        "dimension": 36.44444444444444,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "maths/logarithms.md.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -53,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 181
   },
   "right": {
     "id": "6bc99aed7dbb534d",
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "flutter/Appendix.md",
+                "file": "maths/logarithms.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +103,7 @@
   },
   "active": "a7c475e41d75ff57",
   "lastOpenFiles": [
+    "maths/logarithms.md.md",
     "flutter/Appendix.md",
     "Untitled.md",
     "flutter/3-types.md",
@@ -97,7 +112,6 @@
     "&roid.md",
     "probability/Intro.md",
     "python/readme.md",
-    "dart/1-basics.md",
-    "drafts/arrays-mongodb.md"
+    "dart/1-basics.md"
   ]
 }

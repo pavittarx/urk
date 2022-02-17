@@ -37,6 +37,9 @@ Gradle is the build tool for devlopment on android platform
 
 # Upgrade specific package
   - flutter pub upgrade <package-name>
+
+# Add a package
+  - flutter pub add <package-name>
 ```
 
 #### Managing Package Conflicts
