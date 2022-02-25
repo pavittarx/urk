@@ -4,27 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a7c475e41d75ff57",
+        "id": "dc09867c2c10cd0d",
         "type": "leaf",
-        "dimension": 63.55555555555556,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "maths/logarithms.md.md",
+            "file": "maths/recurrence.md.md",
             "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0ca33ecf88081585",
-        "type": "leaf",
-        "dimension": 36.44444444444444,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "maths/logarithms.md.md",
-            "mode": "preview",
             "source": false
           }
         }
@@ -83,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/logarithms.md.md",
+                "file": "maths/recurrence.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a7c475e41d75ff57",
+  "active": "dc09867c2c10cd0d",
   "lastOpenFiles": [
+    "maths/recurrence.md.md",
+    "maths/notations.md.md",
     "maths/logarithms.md.md",
+    "&roid.md",
     "flutter/Appendix.md",
     "Untitled.md",
     "flutter/3-types.md",
     "flutter/2-widgets.md",
     "flutter/1-basics.md",
-    "&roid.md",
-    "probability/Intro.md",
-    "python/readme.md",
-    "dart/1-basics.md"
+    "probability/Intro.md"
   ]
 }
