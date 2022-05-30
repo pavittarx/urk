@@ -9,6 +9,45 @@ In the above equation, `a` is called the base of logarithm.
 - When base of the logarithm is 10, the logarithms are known as `Common Logarithms`. 
 - When base of the logarithm is `e` , which is 2.714..., the logarithms are known as `Natural Logarithms`.
 
+----
+### Log Properties
+
+$\log{e} = 0$         
+
+$\log{1} = 0$  
+
+$\log{10} = 1$
+
+$\log{m^n} = n.\log{m}$
+
+$\log_a{b} - \frac{\log{b}}{\log{a}}$
+
+$e^{\log{x}} = x$  , x>0
+
+$\log{e^x} = x$
+
+-----
+#### Product Formula
+
+$\log_a{m.n} = \log_a{m} + \log_a{n}$
+
+$\log{m.n} = \log{m} + \log{n}$
+
+----
+
+### Quotient Formula
+
+$\log_a{\frac{m}{n}} = \log_a{m} - \log_a{n}$
+
+$\log{\frac{m}{n}} = \log{m} - \log{n}$
+
+----
+### Base Change Formula
+
+$\log_a{m} = \log_b{m} \times \log_a{b}$
+
+-----
+
 ### Properties of Logarithms
 
 1. $log_a 1 = 0$

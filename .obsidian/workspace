@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "dc09867c2c10cd0d",
+        "id": "7b89334525f5a021",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "maths/recurrence.md.md",
+            "file": "maths/calculus.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/recurrence.md.md",
+                "file": "maths/calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dc09867c2c10cd0d",
+  "active": "7b89334525f5a021",
   "lastOpenFiles": [
-    "maths/recurrence.md.md",
-    "maths/notations.md.md",
+    "maths/calculus.md",
     "maths/logarithms.md.md",
+    "maths/trignometric_equations.md",
+    "maths/notations.md.md",
+    "maths/recurrence.md.md",
     "&roid.md",
     "flutter/Appendix.md",
     "Untitled.md",
     "flutter/3-types.md",
-    "flutter/2-widgets.md",
-    "flutter/1-basics.md",
-    "probability/Intro.md"
+    "flutter/2-widgets.md"
   ]
 }
