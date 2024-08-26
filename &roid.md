@@ -9,7 +9,8 @@ Flash Recovery w/
 `sudo fastboot flash boot recovery.img`
 
 -> Flash Recovery after Custom ROM Recovery 
-** adb works in recovery / enable recovery 
+
+`adb` works in recovery / enable recovery 
 
 `adb push <file> <device-path>`
 

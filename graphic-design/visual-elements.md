@@ -1,10 +1,6 @@
-# <center> Visual Elements of Design </center>
+# Visual Elements of Design
 
 ## Line
-
---- to be added later 
-
-
 
 ## Color 
 

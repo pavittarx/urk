@@ -1,3 +1,39 @@
+# Docker Cookbook
+
+
+###  Get Docker Version
+```bash
+  docker version
+```
+
+### Docker Images 
+
+1. Search Images (available)
+
+```shell
+  docker search [OPTIONS] <keyword>
+```
+
+```bash
+  docker search --limit 5 alpine 
+```
+
+2. Pull Image
+
+```bash 
+  docker image pull [OPTIONS] <name>[:TAG:@DIGEST]
+```
+
+```bash
+  docker image pull ubuntu
+```
+
+3. List Images (available on the system)
+
+```bash
+  docker image ls
+```
+
 ## Docker Containers
 
 All the container commands are grouped under `docker container`

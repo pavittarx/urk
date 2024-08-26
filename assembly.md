@@ -32,7 +32,7 @@ They are used used for arithmetic, logic & other operations. These are four 32-b
 
 These are used in three ways -
 
-EAX, EBX, ECX, EDX - 32-bit data registers. <br/>
+EAX, EBX, ECX, EDX - 32-bit data registers. 
 AX, BX, CX, DX - 16-bit data registers & Lower Halves of 32-bit data registers. <br/>
 AH, BH, CH, DH - 8-bit data registers, Upper halves of 16-bit data registers. <br/>
 AL, BL, CL, DL - 8-bit Data Registers, Lower Halves of 16-bit data registers.
