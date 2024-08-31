@@ -1,8 +1,6 @@
 # Median of Two Sorted Arrays
 
 Leetcode Link: https://leetcode.com/problems/median-of-two-sorted-arrays/?envType=list&envId=rabvlt31
-
-
 # Solution
 ```c++
 using namespace std;

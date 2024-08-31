@@ -1,16 +1,22 @@
+---
+sticker: emoji//1f61c
+---
 
 # Deivatives
 
 ## Standard Functions
 
-$\frac{d}{dx}(u^n) = n.u^{n-1} \times \frac{du}{dx}$                        $\frac{d}{dx}(x^n) = n.x^{n-1}$            
+$\dfrac{d}{dx}(u^n) = n.u^{n-1} \times \dfrac{du}{dx}$                        $\dfrac{d}{dx}(x^n) = n.x^{n-1}$            
 
-$\frac{dx}{dx} = 1$                    $\frac{d}{dx}(x^2) = 2x$       $\frac{d}{dx}(x^3) = 3x^2$
+$\dfrac{dx}{dx} = 1$                    $\dfrac{d}{dx}(x^2) = 2x$       
 
+$\dfrac{d}{dx}(x^3) = 3x^2$
 
-$\frac{d}{dx}(\frac{1}{x}) = \frac{-1}{x^2}$         $\frac{d}{dx}(\frac{1}{x^2}) = \frac{-2}{x^3}$      $\frac{d}{dx}(\frac{1}{x^3}) = \frac{-3}{x^4}$
+$\dfrac{d}{dx}(\dfrac{1}{x}) = \dfrac{-1}{x^2}$         $\dfrac{d}{dx}(\dfrac{1}{x^2}) = \dfrac{-2}{x^3}$      
 
-$\frac{d}{dx}(\sqrt{x}) = \frac{1}{2 \sqrt{x}}$           $\frac{d}{dx}(\frac{1}{\sqrt{x}}) = \frac{-1}{2}x^{\frac{-3}{2}}$
+$\dfrac{d}{dx}(\frac{1}{x^3}) = \dfrac{-3}{x^4}$
+
+$\dfrac{d}{dx}(\sqrt{x}) = \dfrac{1}{2 \sqrt{x}}$           $\dfrac{d}{dx}(\dfrac{1}{\sqrt{x}}) = \dfrac{-1}{2}x^{\dfrac{-3}{2}}$
 
 ----
 
